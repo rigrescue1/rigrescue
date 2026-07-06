@@ -22,15 +22,16 @@ import Layout from '../layouts/Layout.astro';
 
                 <div>
                     <p class="text-blue-400 font-medium mb-1">Phone / Text</p>
-                    <p class="text-2xl text-gray-300">Coming soon — or email to schedule a call</p>
+                    <p class="text-2xl text-gray-300">Email to schedule a call</p>
                 </div>
 
                 <div class="pt-8 border-t border-gray-700">
-                    <p class="text-gray-400 mb-6">Prefer to schedule directly?</p>
-                    <div class="bg-gray-800 border border-dashed border-gray-600 rounded-2xl p-12 text-center">
-                        <p class="text-gray-400">Calendly Booking Widget Goes Here</p>
-                        <p class="text-sm mt-3">(Easy to add once you create a free Calendly account)</p>
-                    </div>
+                    <p class="text-gray-400 mb-6">Book a 30 Min Remote Consultation</p>
+                    <!-- Calendly Embed -->
+                    <div class="calendly-inline-widget"
+                         data-url="https://calendly.com/anthonyjames-rigrescue/30min"
+                         style="min-width:320px;height:700px;"></div>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
                 </div>
             </div>
 
