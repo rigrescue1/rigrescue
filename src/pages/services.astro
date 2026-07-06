@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+    <div class="bg-gray-950 py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <h1 class="text-5xl font-bold text-center mb-6">Our Services</h1>
+            <p class="text-xl text-gray-400 text-center max-w-2xl mx-auto mb-16">
+                Honest remote and local tech support in the Deltona / Deland / Orange City area.<br>
+                <span class="text-blue-400">$50 Diagnostic Fee</span> — always credited toward full repair if you proceed.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-10">
+                <!-- Remote Services -->
+                <div class="bg-gray-900 rounded-3xl p-10">
+                    <div class="text-4xl mb-6">🌐</div>
+                    <h3 class="text-3xl font-semibold mb-4">Remote Support</h3>
+                    <ul class="space-y-3 text-gray-300 mb-8">
+                        <li>• Virus/Malware Removal & Scam Cleanup</li>
+                        <li>• Performance Troubleshooting & Optimization</li>
+                        <li>• Software Installation & Issues</li>
+                        <li>• Windows / Linux Support</li>
+                        <li>• New PC Part Selection Guidance</li>
+                    </ul>
+                    <p class="text-green-400 font-medium">No work started until you approve the quote after diagnosis</p>
+                </div>
+
+                <!-- Local Hands-On -->
+                <div class="bg-gray-900 rounded-3xl p-10">
+                    <div class="text-4xl mb-6">🔧</div>
+                    <h3 class="text-3xl font-semibold mb-4">Local In-Person Services</h3>
+                    <p class="text-gray-400 mb-4 text-sm uppercase tracking-wider">Deltona • Deland • Orange City & nearby</p>
+                    <ul class="space-y-3 text-gray-300 mb-8">
+                        <li>• Full PC Assembly (with detailed walkthrough or hands-off)</li>
+                        <li>• Custom Build Consulting & Part Selection</li>
+                        <li>• Homelab / Local Server Setup & Ongoing Support</li>
+                        <li>• On-Site Repairs & Troubleshooting</li>
+                        <li>• Private Tech Classes (retirement homes, small groups, etc.)</li>
+                    </ul>
+                    <p class="text-green-400 font-medium">Custom quotes provided after initial discussion</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-16">
+                <a href="/contact"
+                   class="inline-block bg-blue-600 hover:bg-blue-500 px-12 py-5 rounded-2xl text-xl font-medium transition">
+                    Start with a $50 Diagnostic
+                </a>
+            </div>
+        </div>
+    </div>
+</Layout>
